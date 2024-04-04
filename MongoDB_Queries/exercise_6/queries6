@@ -1,0 +1,33 @@
+// 6. Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+db.attendance.aggregate([
+  {
+    $match: {
+      attended: false,
+      $and: [
+        { _id: { $gte: ObjectId("660d3225503664a6e6bb4cb7") } }, // Start from October 15, 2023
+        { _id: { $lte: ObjectId("660d3225503664a6e6bb4cc8") } }  // End on October 31, 2023
+      ]
+    }
+  },
+  {
+    $lookup: {
+      from: "tasks",
+      localField: "userId",
+      foreignField: "userId",
+      as: "user_tasks"
+    }
+  },
+  {
+    $match: {
+      "user_tasks.submitted": false,
+      "user_tasks.dueDate": {
+        $gte: ("2023-10-15"),
+        $lte: ("2023-10-31")
+      }
+    }
+  },
+  {
+    $count: "total"
+  }
+])

@@ -1,0 +1,160 @@
+[{
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d8d"
+    },
+    "userId": "user7",
+    "driveDate": "2020-10-04T00:00:00.000Z",
+    "company": "Google"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d8e"
+    },
+    "userId": "user2",
+    "driveDate": "2020-10-05T00:00:00.000Z",
+    "company": "Microsoft"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d8f"
+    },
+    "userId": "user7",
+    "driveDate": "2020-10-06T00:00:00.000Z",
+    "company": "Amazon"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d90"
+    },
+    "userId": "user4",
+    "driveDate": "2020-10-07T00:00:00.000Z",
+    "company": "Facebook"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d91"
+    },
+    "userId": "user7",
+    "driveDate": "2020-10-08T00:00:00.000Z",
+    "company": "Apple"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d92"
+    },
+    "userId": "user1",
+    "driveDate": "2020-10-09T00:00:00.000Z",
+    "company": "Netflix"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d93"
+    },
+    "userId": "user7",
+    "driveDate": "2020-10-10T00:00:00.000Z",
+    "company": "Tesla"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d94"
+    },
+    "userId": "user8",
+    "driveDate": "2020-10-11T00:00:00.000Z",
+    "company": "Uber"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d95"
+    },
+    "userId": "user9",
+    "driveDate": "2020-10-12T00:00:00.000Z",
+    "company": "Airbnb"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d96"
+    },
+    "userId": "user10",
+    "driveDate": "2020-10-13T00:00:00.000Z",
+    "company": "Twitter"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d97"
+    },
+    "userId": "user10",
+    "driveDate": "2020-10-14T00:00:00.000Z",
+    "company": "LinkedIn"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d98"
+    },
+    "userId": "user12",
+    "driveDate": "2020-10-15T00:00:00.000Z",
+    "company": "Salesforce"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d99"
+    },
+    "userId": "user10",
+    "driveDate": "2020-10-16T00:00:00.000Z",
+    "company": "Intel"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9a"
+    },
+    "userId": "user8",
+    "driveDate": "2020-10-17T00:00:00.000Z",
+    "company": "IBM"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9b"
+    },
+    "userId": "user15",
+    "driveDate": "2020-10-18T00:00:00.000Z",
+    "company": "Oracle"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9c"
+    },
+    "userId": "user8",
+    "driveDate": "2020-10-19T00:00:00.000Z",
+    "company": "Cisco"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9d"
+    },
+    "userId": "user10",
+    "driveDate": "2020-10-20T00:00:00.000Z",
+    "company": "Adobe"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9e"
+    },
+    "userId": "user8",
+    "driveDate": "2020-10-21T00:00:00.000Z",
+    "company": "HP"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4d9f"
+    },
+    "userId": "user10",
+    "driveDate": "2020-10-22T00:00:00.000Z",
+    "company": "Dell"
+  },
+  {
+    "_id": {
+      "$oid": "660d34c6503664a6e6bb4da0"
+    },
+    "userId": "user8",
+    "driveDate": "2020-10-23T00:00:00.000Z",
+    "company": "VMware"
+  }]

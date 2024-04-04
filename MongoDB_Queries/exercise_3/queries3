@@ -1,0 +1,30 @@
+// 3. Find all the company drives and students who are appeared for the placement.
+
+db.company_drives.aggregate([
+  {
+    $lookup: {
+      from: "users",
+      localField: "userId",
+      foreignField: "_id",
+      as: "studentInfo"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      driveDate: 1,
+      company: 1,
+      studentInfo: {
+        $map: {
+          input: "$studentInfo",
+          as: "student",
+          in: {
+            userId: "$$student._id",
+            userName: "$$student.name",
+            userEmail: "$$student.email"
+          }
+        }
+      }
+    }
+  }
+]);

@@ -1,0 +1,15 @@
+// 5. Find all the mentors with who has the mentee's count more than 15
+
+db.users.aggregate([
+  {
+    $group: {
+      _id: "$mentor_id",
+      menteeCount: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      menteeCount: { $gt: 15 }
+    }
+  }
+]);

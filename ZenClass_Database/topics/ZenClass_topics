@@ -1,0 +1,40 @@
+[{
+  "_id": "topic1",
+  "topic_name": "HTML",
+  "taken_date": "2023-10-05"
+},
+{
+  "_id": "topic2",
+  "topic_name": "CSS",
+  "taken_date": "2023-10-10"
+},
+{
+  "_id": "topic3",
+  "topic_name": "JavaScript",
+  "taken_date": "2023-10-15"
+},
+{
+  "_id": "topic4",
+  "topic_name": "React",
+  "taken_date": "2023-10-20"
+},
+{
+  "_id": "topic5",
+  "topic_name": "MongoDB",
+  "taken_date": "2023-10-25"
+},
+{
+  "_id": "topic6",
+  "topic_name": "Node.js",
+  "taken_date": "2023-11-01"
+},
+{
+  "_id": "topic7",
+  "topic_name": "Express.js",
+  "taken_date": "2023-11-05"
+},
+{
+  "_id": "topic8",
+  "topic_name": "Authentication",
+  "taken_date": "2023-11-10"
+}]
